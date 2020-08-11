@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/3Muskiteers/static/css/main.b0ae7bcf.chunk.css",
+    "main.js": "/3Muskiteers/static/js/main.a120ce35.chunk.js",
+    "main.js.map": "/3Muskiteers/static/js/main.a120ce35.chunk.js.map",
+    "runtime-main.js": "/3Muskiteers/static/js/runtime-main.dfa43a93.js",
+    "runtime-main.js.map": "/3Muskiteers/static/js/runtime-main.dfa43a93.js.map",
+    "static/js/2.0d221578.chunk.js": "/3Muskiteers/static/js/2.0d221578.chunk.js",
+    "static/js/2.0d221578.chunk.js.map": "/3Muskiteers/static/js/2.0d221578.chunk.js.map",
+    "index.html": "/3Muskiteers/index.html",
+    "precache-manifest.65453e54bdafcaafe4e2eacef2b19f2b.js": "/3Muskiteers/precache-manifest.65453e54bdafcaafe4e2eacef2b19f2b.js",
+    "service-worker.js": "/3Muskiteers/service-worker.js",
+    "static/css/main.b0ae7bcf.chunk.css.map": "/3Muskiteers/static/css/main.b0ae7bcf.chunk.css.map",
+    "static/js/2.0d221578.chunk.js.LICENSE.txt": "/3Muskiteers/static/js/2.0d221578.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dfa43a93.js",
+    "static/js/2.0d221578.chunk.js",
+    "static/css/main.b0ae7bcf.chunk.css",
+    "static/js/main.a120ce35.chunk.js"
+  ]
+}
