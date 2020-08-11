@@ -1,22 +1,38 @@
 {
   "files": {
-    "main.css": "/3Muskiteers/static/css/main.b0ae7bcf.chunk.css",
-    "main.js": "/3Muskiteers/static/js/main.a120ce35.chunk.js",
-    "main.js.map": "/3Muskiteers/static/js/main.a120ce35.chunk.js.map",
-    "runtime-main.js": "/3Muskiteers/static/js/runtime-main.dfa43a93.js",
-    "runtime-main.js.map": "/3Muskiteers/static/js/runtime-main.dfa43a93.js.map",
-    "static/js/2.0d221578.chunk.js": "/3Muskiteers/static/js/2.0d221578.chunk.js",
-    "static/js/2.0d221578.chunk.js.map": "/3Muskiteers/static/js/2.0d221578.chunk.js.map",
+    "main.css": "/3Muskiteers/static/css/main.935d01e5.chunk.css",
+    "main.js": "/3Muskiteers/static/js/main.40f7111c.chunk.js",
+    "main.js.map": "/3Muskiteers/static/js/main.40f7111c.chunk.js.map",
+    "runtime-main.js": "/3Muskiteers/static/js/runtime-main.1ee00434.js",
+    "runtime-main.js.map": "/3Muskiteers/static/js/runtime-main.1ee00434.js.map",
+    "static/js/2.234c86ee.chunk.js": "/3Muskiteers/static/js/2.234c86ee.chunk.js",
+    "static/js/2.234c86ee.chunk.js.map": "/3Muskiteers/static/js/2.234c86ee.chunk.js.map",
     "index.html": "/3Muskiteers/index.html",
-    "precache-manifest.65453e54bdafcaafe4e2eacef2b19f2b.js": "/3Muskiteers/precache-manifest.65453e54bdafcaafe4e2eacef2b19f2b.js",
+    "precache-manifest.5ebb47579c09bde19b0f125491f5d331.js": "/3Muskiteers/precache-manifest.5ebb47579c09bde19b0f125491f5d331.js",
     "service-worker.js": "/3Muskiteers/service-worker.js",
-    "static/css/main.b0ae7bcf.chunk.css.map": "/3Muskiteers/static/css/main.b0ae7bcf.chunk.css.map",
-    "static/js/2.0d221578.chunk.js.LICENSE.txt": "/3Muskiteers/static/js/2.0d221578.chunk.js.LICENSE.txt"
+    "static/css/main.935d01e5.chunk.css.map": "/3Muskiteers/static/css/main.935d01e5.chunk.css.map",
+    "static/js/2.234c86ee.chunk.js.LICENSE.txt": "/3Muskiteers/static/js/2.234c86ee.chunk.js.LICENSE.txt",
+    "static/media/bell.46e08602.svg": "/3Muskiteers/static/media/bell.46e08602.svg",
+    "static/media/delivery.655a84ef.svg": "/3Muskiteers/static/media/delivery.655a84ef.svg",
+    "static/media/dispatch.ff0f5ff0.svg": "/3Muskiteers/static/media/dispatch.ff0f5ff0.svg",
+    "static/media/doctor.b22016ec.svg": "/3Muskiteers/static/media/doctor.b22016ec.svg",
+    "static/media/down-arrow.24c0b90b.svg": "/3Muskiteers/static/media/down-arrow.24c0b90b.svg",
+    "static/media/downloads.552cecb1.svg": "/3Muskiteers/static/media/downloads.552cecb1.svg",
+    "static/media/finance.aa87ec27.svg": "/3Muskiteers/static/media/finance.aa87ec27.svg",
+    "static/media/helpdesk.193e610c.svg": "/3Muskiteers/static/media/helpdesk.193e610c.svg",
+    "static/media/operations.dbb3cc44.svg": "/3Muskiteers/static/media/operations.dbb3cc44.svg",
+    "static/media/options.27ce550f.svg": "/3Muskiteers/static/media/options.27ce550f.svg",
+    "static/media/order.63070e8a.svg": "/3Muskiteers/static/media/order.63070e8a.svg",
+    "static/media/payments.27f4cea3.svg": "/3Muskiteers/static/media/payments.27f4cea3.svg",
+    "static/media/person.7ad1f30c.svg": "/3Muskiteers/static/media/person.7ad1f30c.svg",
+    "static/media/pharmacist.3434ee21.svg": "/3Muskiteers/static/media/pharmacist.3434ee21.svg",
+    "static/media/question.fb656400.svg": "/3Muskiteers/static/media/question.fb656400.svg",
+    "static/media/statistics.f57c44d4.svg": "/3Muskiteers/static/media/statistics.f57c44d4.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.dfa43a93.js",
-    "static/js/2.0d221578.chunk.js",
-    "static/css/main.b0ae7bcf.chunk.css",
-    "static/js/main.a120ce35.chunk.js"
+    "static/js/runtime-main.1ee00434.js",
+    "static/js/2.234c86ee.chunk.js",
+    "static/css/main.935d01e5.chunk.css",
+    "static/js/main.40f7111c.chunk.js"
   ]
 }
