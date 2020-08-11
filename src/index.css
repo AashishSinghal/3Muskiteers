@@ -49,6 +49,22 @@ a {
   justify-content: flex-end;
 }
 
+.medshipp {
+  width: 165px;
+  height: 27px;
+  opacity: 0.9;
+  font-family: Roboto;
+  font-size: 22.5px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 1.13px;
+  text-align: left;
+  color: #51c9c2;
+  margin-right: auto;
+}
+
 .nav-item {
   width: calc(var(--nav-size) * 0.8);
   display: flex;
@@ -57,6 +73,11 @@ a {
   margin: 0 3px;
 }
 
+.main-name {
+  width: fit-content;
+  margin-left: 0;
+  margin-right: auto;
+}
 .icon-button {
   --button-size: calc(var(--nav-size) * 0.5);
   height: var(--button-size);

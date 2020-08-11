@@ -77,6 +77,9 @@ class App extends Component {
       <div className="App">
         {/* <Header /> */}
         <Navbar>
+          <li className="nav-item main-name">
+            <span className="medshipp">MedShipp</span>
+          </li>
           <NavItem icon={<PersonIcon className="person navItem" />} />
           <NavItem icon={<BellIcon className="bell navItem" />} />
           <NavItem icon={<QuestionIcon className="about navItem" />} />
