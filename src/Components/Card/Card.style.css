@@ -1,0 +1,87 @@
+.card-container {
+  --square: 9vw;
+  width: var(--square);
+  height: var(--square);
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #51c9c2;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+
+.card-container:hover {
+  transform: scale(1.15);
+  background-color: #51c9c2;
+  border: none;
+}
+
+.opt-svg-class {
+  width: auto;
+  height: 5vw;
+  fill: #51c9c2;
+  justify-self: center;
+  align-self: center;
+  margin: auto auto;
+}
+
+.card-container:hover .opt-svg-class {
+  fill: #6e6e6e;
+}
+
+.opt-num {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 23px;
+  height: 12px;
+  border-radius: 12.5px;
+  background-color: #51c9c2;
+  float: right;
+  margin: 5px;
+}
+
+.opt-num-span {
+  width: 13.5px;
+  height: 9px;
+  font-family: Roboto;
+  font-size: 7.5px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 0.38px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.opt-span {
+  width: fit-content;
+  height: 17.5px;
+  font-family: Roboto;
+  font-size: 14.5px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.21;
+  letter-spacing: 0.72px;
+  text-align: center;
+  color: #6e6e6e;
+  margin: auto auto;
+}
+
+.card-container:hover .opt-num {
+  background-color: white;
+}
+
+.card-container:hover .opt-num-span {
+  color: #51c9c2;
+}
+
+.card-container:hover .opt-span {
+  color: white;
+}

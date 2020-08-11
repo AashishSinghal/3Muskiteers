@@ -1,0 +1,116 @@
+.navigation {
+    display: flex;
+    align-items: center;
+    width: -webkit-fill-available;
+    height: 50px;
+    box-shadow: 0 1.5px 10px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    padding: 0 61px;
+  }
+  
+  .medshipp {
+    width: 165px;
+    height: 27px;
+    opacity: 0.9;
+    font-family: Roboto;
+    font-size: 22.5px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: 1.13px;
+    text-align: left;
+    color: #51c9c2;
+    margin-right: auto;
+  }
+  
+  .user-name {
+    width: fit-content;
+    height: 17.5px;
+    margin: 0 5px 0 auto;
+    font-family: Roboto;
+    font-size: 14.5px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: 0.72px;
+    text-align: right;
+    color: #000000;
+  }
+  
+  .profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 31px;
+    margin: 0 0 0 5px;
+    border: solid 0.5px #51c9c2;
+    border-radius: 100%;
+    background-color: #ffffff;
+  }
+  
+  .person {
+    width: 18px;
+    height: auto;
+    object-fit: contain;
+    fill: #51c9c2;
+  }
+  
+  .notification {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 31px;
+    margin: 0 0 0 5px;
+    border: solid 0.5px #51c9c2;
+    border-radius: 100%;
+    background-color: #ffffff;
+  }
+  
+  .bell {
+    width: 18px;
+    height: auto;
+    object-fit: contain;
+    fill: #51c9c2;
+  }
+  
+  .help {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 31px;
+    margin: 0 0 0 5px;
+    border: solid 0.5px #51c9c2;
+    border-radius: 100%;
+    background-color: #ffffff;
+  }
+  
+  .about {
+    width: 18px;
+    height: auto;
+    object-fit: contain;
+    fill: #51c9c2;
+  }
+  
+  .profile-opt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 31px;
+    margin: 0 0 0 5px;
+    border: solid 0.5px #51c9c2;
+    border-radius: 100%;
+    background-color: #ffffff;
+  }
+  
+  .down-arrow {
+    width: 18px;
+    height: auto;
+    object-fit: contain;
+    fill: #51c9c2;
+  }
