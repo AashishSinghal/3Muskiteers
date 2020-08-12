@@ -1,24 +1,16 @@
-import React, { Component, useState } from "react";
-// import { CSSTransition } from 'react-transition-group';
+import React, { Component } from "react";
 import "./App.css";
-import { CardList } from "./Components/Card-list/Card-list.Component";
 import Header from "./Components/Header/Header.Component";
-import { ReactComponent as BellIcon } from "./Assets/img/svg/bell.svg";
+import { SubOptions } from "./Components/SubOptions/SubOptions.Component";
+import { CardList } from "./Components/Card-list/Card-list.Component";
 import { ReactComponent as DeliveryIcon } from "./Assets/img/svg/delivery.svg";
 import { ReactComponent as DispatchIcon } from "./Assets/img/svg/dispatch.svg";
-import { ReactComponent as DoctorIcon } from "./Assets/img/svg/doctor.svg";
-import { ReactComponent as DownArrowIcon } from "./Assets/img/svg/down-arrow.svg";
 import { ReactComponent as DownloadsIcon } from "./Assets/img/svg/downloads.svg";
-import { ReactComponent as FinanceIcon } from "./Assets/img/svg/finance.svg";
-import { ReactComponent as HelpdeskIcon } from "./Assets/img/svg/helpdesk.svg";
-import { ReactComponent as OperationsIcon } from "./Assets/img/svg/operations.svg";
 import { ReactComponent as OptionsIcon } from "./Assets/img/svg/options.svg";
 import { ReactComponent as OrderIcon } from "./Assets/img/svg/order.svg";
 import { ReactComponent as PaymentsIcon } from "./Assets/img/svg/payments.svg";
-import { ReactComponent as PersonIcon } from "./Assets/img/svg/person.svg";
-import { ReactComponent as PharmacistIcon } from "./Assets/img/svg/pharmacist.svg";
-import { ReactComponent as QuestionIcon } from "./Assets/img/svg/question.svg";
 import { ReactComponent as StatisticsIcon } from "./Assets/img/svg/statistics.svg";
+import SearchBar from "./Components/Search-bar/Search-box.Component";
 
 class App extends Component {
   constructor() {
@@ -52,21 +44,78 @@ class App extends Component {
         },
         {
           id: 5,
-          notifiCount: 124,
+          notifiCount: "none",
           name: "Statistics",
           svg: <StatisticsIcon className="statistics opt-svg-class" />,
         },
         {
           id: 6,
-          notifiCount: 125,
+          notifiCount: "none",
           name: "Downloads",
           svg: <DownloadsIcon className="downloads opt-svg-class" />,
         },
         {
           id: 7,
-          notifiCount: 126,
+          notifiCount: "none",
           name: "Options",
           svg: <OptionsIcon className="options opt-svg-class" />,
+        },
+      ],
+
+      SubOptionsA: [
+        {
+          id: 1,
+          notifiCount: 12,
+          notifiColor: "#51c9c2",
+          name: "New",
+        },
+        {
+          id: 2,
+          notifiCount: 13,
+          notifiColor: "#51C971",
+          name: "Assigned to Pharmacy",
+        },
+        {
+          id: 3,
+          notifiCount: 14,
+          notifiColor: "#FFB01E",
+          name: "Awaiting Prescription",
+        },
+        {
+          id: 4,
+          notifiCount: 15,
+          notifiColor: "#003CFF",
+          name: "Queried",
+        },
+        {
+          id: 5,
+          notifiCount: 16,
+          notifiColor: "#FFB01E",
+          name: "Awaiting Shipment",
+        },
+        {
+          id: 6,
+          notifiCount: 17,
+          notifiColor: "#01FF1B",
+          name: "Shipped",
+        },
+        {
+          id: 7,
+          notifiCount: 12,
+          notifiColor: "#01FF1B",
+          name: "Delivered",
+        },
+        {
+          id: 8,
+          notifiCount: 13,
+          notifiColor: "#FF0000",
+          name: "Rejected",
+        },
+        {
+          id: 9,
+          notifiCount: 14,
+          notifiColor: "#FF0000",
+          name: "Cancelled",
         },
       ],
     };
@@ -75,68 +124,81 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        {/* <Header /> */}
-        <Navbar>
-          <li className="nav-item main-name">
-            <span className="medshipp">MedShipp</span>
-          </li>
-          <NavItem icon={<PersonIcon className="person navItem" />} />
-          <NavItem icon={<BellIcon className="bell navItem" />} />
-          <NavItem icon={<QuestionIcon className="about navItem" />} />
-          <NavItem icon={<DownArrowIcon className="down-arrow navItem" />}>
-            {/* Dropdown goes Here */}
-            <DropdownMenu></DropdownMenu>
-          </NavItem>
-        </Navbar>
+        <Header />
         <CardList OptionsA={this.state.OptionsA} />
+        <SubOptions SubOptionsA={this.state.SubOptionsA} />
+        <TableData />
       </div>
     );
   }
 }
 
-function DropdownMenu() {
-  function DropdownItem(props) {
-    return (
-      <a href="#" className="menu-item">
-        <span className="icon-button opt-icon" style={{ marginRight: "15px" }}>
-          {props.leftIcon}
-        </span>
 
-        {props.children}
-        {/* <span className="icon-button">{props.rightIcon}</span> */}
-      </a>
-    );
-  }
-
+function TableData() {
   return (
-    <div className="dropdown">
-      <DropdownItem leftIcon={<OperationsIcon />}>Operations</DropdownItem>
-      <DropdownItem leftIcon={<FinanceIcon />}>Finance</DropdownItem>
-      <DropdownItem leftIcon={<PharmacistIcon />}>Pharmacist</DropdownItem>
-      <DropdownItem leftIcon={<DoctorIcon />}>Doctor</DropdownItem>
-      <DropdownItem leftIcon={<HelpdeskIcon />}>Helpdesk</DropdownItem>
+    <div className="table-data">
+      <SearchBar />
+      <table border="0" cellspacing="0" cellpadding="20">
+        <tbody>
+          <tr>
+            <td>Customer Info</td>
+            <td>Order Info</td>
+            <td>Product</td>
+            <td>Timeline</td>
+            <td>Order Amount</td>
+            <td>Mode of Payment</td>
+            <td>View Detail</td>
+          </tr>
+          <tr>
+            <td>adsf</td>
+            <td>adsf</td>
+            <td>asdf</td>
+            <td>asdf</td>
+            <td>asdf</td>
+            <td>asdf</td>
+            <td>asdf</td>
+          </tr>
+          <tr>
+            <td>adsf</td>
+            <td>adsf</td>
+            <td>asdf</td>
+            <td>asdf</td>
+            <td>asdf</td>
+            <td>asdf</td>
+            <td>asdf</td>
+          </tr>
+          <tr>
+            <td>adsf</td>
+            <td>adsf</td>
+            <td>asdf</td>
+            <td>asdf</td>
+            <td>asdf</td>
+            <td>asdf</td>
+            <td>asdf</td>
+          </tr>
+          <tr>
+            <td>adsf</td>
+            <td>adsf</td>
+            <td>asdf</td>
+            <td>asdf</td>
+            <td>asdf</td>
+            <td>asdf</td>
+            <td>asdf</td>
+          </tr>
+          <tr>
+            <td>adsf</td>
+            <td>adsf</td>
+            <td>asdf</td>
+            <td>asdf</td>
+            <td>asdf</td>
+            <td>asdf</td>
+            <td>asdf</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   );
 }
 
-function Navbar(props) {
-  return (
-    <nav className="navbar">
-      <ul className="navbar-nav">{props.children}</ul>
-    </nav>
-  );
-}
-
-function NavItem(props) {
-  const [open, setOpen] = useState(false);
-  return (
-    <li className="nav-item">
-      <a href="#" className="icon-button" onClick={() => setOpen(!open)}>
-        {props.icon}
-      </a>
-      {open && props.children}
-    </li>
-  );
-}
 
 export default App;

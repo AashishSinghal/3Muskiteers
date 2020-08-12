@@ -1,111 +1,71 @@
-import React from "react";
+import React, { useState } from "react";
 import "../Header/Header.Style.css";
+import { ReactComponent as BellIcon } from "../../Assets/img/svg/bell.svg";
+import { ReactComponent as DoctorIcon } from "../../Assets/img/svg/doctor.svg";
+import { ReactComponent as DownArrowIcon } from "../../Assets/img/svg/down-arrow.svg";
+import { ReactComponent as FinanceIcon } from "../../Assets/img/svg/finance.svg";
+import { ReactComponent as HelpdeskIcon } from "../../Assets/img/svg/helpdesk.svg";
+import { ReactComponent as OperationsIcon } from "../../Assets/img/svg/operations.svg";
+import { ReactComponent as PersonIcon } from "../../Assets/img/svg/person.svg";
+import { ReactComponent as PharmacistIcon } from "../../Assets/img/svg/pharmacist.svg";
+import { ReactComponent as QuestionIcon } from "../../Assets/img/svg/question.svg";
 
 function Header() {
   return (
-    <div className="navigation">
-      <span className="medshipp">MedShipp</span>
-      <span className="user-name">Welcome, Prateek Goyal</span>
-      <div className="profile">
-        <svg
-          className="person"
-          id="Layer_1"
-          enable-background="new 0 0 480.063 480.063"
-          height="512"
-          viewBox="0 0 480.063 480.063"
-          width="512"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path d="m402.032 424.806v47.257c0 4.418-3.582 8-8 8s-8-3.582-8-8v-47.257c0-36.795-29.775-66.572-66.573-66.571-17.411 0-33.208-8.87-42.259-23.728-2.298-3.773-1.103-8.696 2.671-10.994 3.773-2.299 8.695-1.103 10.994 2.671 6.122 10.051 16.811 16.051 28.594 16.051 45.637-.002 82.573 36.93 82.573 82.571zm-139.606-80.193c.941 4.317-1.796 8.579-6.113 9.52-21.054 4.587-42.467-.005-59.516-11.642-16.878 18.087-39.176 15.744-36.191 15.744-36.795-.001-66.573 29.773-66.573 66.571v47.257c0 4.418-3.582 8-8 8s-8-3.582-8-8v-47.257c0-45.636 36.929-82.571 82.571-82.571 18.462 0 33.429-14.875 33.429-33.342v-2.107c-34.919-16.697-59.429-51.784-60.923-92.643-14.37-3.455-25.077-16.317-25.077-31.62v-41.473c-.437-20.3 2.577-71.143 39.648-106.877 45.775-44.126 119.183-41.323 173.161-15.338 5.261 2.535 6.06 9.643 1.691 13.324 27.345 6.67 50.925 23.48 66.074 47.538.782 1.239 2.214 3.184 1.84 6.287-.232 1.931-.807 3.565-2.295 5.075-9.75 9.888-15.119 22.991-15.119 36.896v54.57c0 4.418-3.582 8-8 8s-8-3.582-8-8v-54.57c0-16.037 5.479-31.259 15.542-43.487-15.338-21.936-39.268-36.044-66.332-38.942l-14.061-1.506c-8.222-.88-9.835-12.207-2.194-15.352l6.395-2.633c-83.286-29.035-172.351 3.226-172.351 114.928v41.56c0 6.348 3.656 11.865 9 14.636v-51.863c0-30.878 25.122-56 56-56h102c30.878 0 56 25.12 56 55.997v65.503c0 69.574-67.988 122.42-137.17 102.053-.45 5.708-1.871 11.216-4.186 16.336 13.458 9.242 30.453 12.97 47.23 9.314 4.317-.94 8.579 1.797 9.52 6.114zm-22.394-43.425c50.178 0 91-40.822 91-91v-64.895c0-22.054-17.944-39.997-40-39.997h-102c-22.056 0-40 17.944-40 40v64.892c0 50.178 40.822 91 91 91zm81 137.875h-24c-4.418 0-8 3.582-8 8s3.582 8 8 8h24c4.418 0 8-3.582 8-8s-3.582-8-8-8z" />
-        </svg>
-      </div>
-      <div className="notification">
-        <svg
-          className="bell"
-          version="1.1"
-          id="Capa_1"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlnsXlink="http://www.w3.org/1999/xlink"
-          x="0px"
-          y="0px"
-          viewBox="0 0 512 512"
-          style={{ enableBackground: "new 0 0 512 512" }}
-          xmlSpace="preserve"
-        >
-          <g>
-            <g>
-              <path
-                d="M467.819,431.851l-36.651-61.056c-16.896-28.181-25.835-60.437-25.835-93.312V224
-			c0-82.325-67.008-149.333-149.333-149.333S106.667,141.675,106.667,224v53.483c0,32.875-8.939,65.131-25.835,93.312
-			l-36.651,61.056c-1.984,3.285-2.027,7.403-0.149,10.731c1.899,3.349,5.461,5.419,9.301,5.419h405.333
-			c3.84,0,7.403-2.069,9.301-5.419C469.845,439.253,469.803,435.136,467.819,431.851z M72.171,426.667l26.944-44.907
-			C118.016,350.272,128,314.219,128,277.483V224c0-70.592,57.408-128,128-128s128,57.408,128,128v53.483
-			c0,36.736,9.984,72.789,28.864,104.277l26.965,44.907H72.171z"
-              />
-            </g>
-          </g>
-          <g>
-            <g>
-              <path
-                d="M256,0c-23.531,0-42.667,19.136-42.667,42.667v42.667C213.333,91.221,218.112,96,224,96s10.667-4.779,10.667-10.667
-			V42.667c0-11.776,9.557-21.333,21.333-21.333s21.333,9.557,21.333,21.333v42.667C277.333,91.221,282.112,96,288,96
-			s10.667-4.779,10.667-10.667V42.667C298.667,19.136,279.531,0,256,0z"
-              />
-            </g>
-          </g>
-          <g>
-            <g>
-              <path
-                d="M302.165,431.936c-3.008-5.077-9.515-6.741-14.613-3.819c-5.099,2.987-6.805,9.536-3.819,14.613
-			c2.773,4.715,4.288,10.368,4.288,15.936c0,17.643-14.357,32-32,32c-17.643,0-32-14.357-32-32c0-5.568,1.515-11.221,4.288-15.936
-			c2.965-5.099,1.259-11.627-3.819-14.613c-5.141-2.923-11.627-1.259-14.613,3.819c-4.715,8.064-7.211,17.301-7.211,26.731
-			C202.667,488.085,226.581,512,256,512s53.333-23.915,53.376-53.333C309.376,449.237,306.88,440,302.165,431.936z"
-              />
-            </g>
-          </g>
-        </svg>
-      </div>
-      <div className="help">
-        <svg
-          class="about"
-          id="Layer_1"
-          enable-background="new 0 0 512 512"
-          height="512"
-          viewBox="0 0 512 512"
-          width="512"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <g>
-            <path d="m256 368c-8.836 0-16-7.164-16-16 0-40.386 15.727-78.354 44.285-106.912 17.872-17.873 27.715-41.635 27.715-66.911 0-27.668-22.509-50.177-50.177-50.177h-3.646c-27.668 0-50.177 22.509-50.177 50.177v5.823c0 8.836-7.164 16-16 16s-16-7.164-16-16v-5.823c0-45.313 36.864-82.177 82.177-82.177h3.646c45.313 0 82.177 36.864 82.177 82.177 0 33.823-13.171 65.622-37.088 89.539-22.514 22.513-34.912 52.446-34.912 84.284 0 8.836-7.164 16-16 16z" />
-            <path d="m256.02 432c-8.836 0-16.005-7.164-16.005-16s7.158-16 15.995-16h.01c8.836 0 16 7.164 16 16s-7.164 16-16 16z" />
-          </g>
-        </svg>
-      </div>
-      <div className="profile-opt">
-        <svg
-          className="down-arrow"
-          version="1.1"
-          id="Layer_1"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlnsXlink="http://www.w3.org/1999/xlink"
-          x="0px"
-          y="0px"
-          viewBox="0 0 512 512"
-          style={{ enableBackground: "new 0 0 512 512" }}
-          xmlSpace="preserve"
-        >
-          <g>
-            <g>
-              <path
-                d="M505.752,123.582c-8.331-8.331-21.839-8.331-30.17,0L256,343.163L36.418,123.582c-8.331-8.331-21.839-8.331-30.17,0
-			s-8.331,21.839,0,30.17l234.667,234.667c8.331,8.331,21.839,8.331,30.17,0l234.667-234.667
-			C514.083,145.42,514.083,131.913,505.752,123.582z"
-              />
-            </g>
-          </g>
-        </svg>
-      </div>
+    <Navbar>
+      <li className="nav-item main-name">
+        <span className="medshipp">MedShipp</span>
+      </li>
+      <NavItem icon={<PersonIcon className="person navItem" />} />
+      <NavItem icon={<BellIcon className="bell navItem" />} />
+      <NavItem icon={<QuestionIcon className="about navItem" />} />
+      <NavItem icon={<DownArrowIcon className="down-arrow navItem" />}>
+        <DropdownMenu></DropdownMenu>
+      </NavItem>
+    </Navbar>
+  );
+}
+
+function DropdownMenu() {
+  function DropdownItem(props) {
+    return (
+      <a href="#" className="menu-item">
+        <span className="icon-button opt-icon" style={{ marginRight: "15px" }}>
+          {props.leftIcon}
+        </span>
+        {props.children}
+      </a>
+    );
+  }
+
+  return (
+    <div className="dropdown">
+      <DropdownItem leftIcon={<OperationsIcon />}>Operations</DropdownItem>
+      <DropdownItem leftIcon={<FinanceIcon />}>Finance</DropdownItem>
+      <DropdownItem leftIcon={<PharmacistIcon />}>Pharmacist</DropdownItem>
+      <DropdownItem leftIcon={<DoctorIcon />}>Doctor</DropdownItem>
+      <DropdownItem leftIcon={<HelpdeskIcon />}>Helpdesk</DropdownItem>
     </div>
+  );
+}
+
+function Navbar(props) {
+  return (
+    <nav className="navbar">
+      <ul className="navbar-nav">{props.children}</ul>
+    </nav>
+  );
+}
+
+function NavItem(props) {
+  const [open, setOpen] = useState(false);
+  return (
+    <li className="nav-item">
+      <a href="#" className="icon-button" onClick={() => setOpen(!open)}>
+        {props.icon}
+      </a>
+      {open && props.children}
+    </li>
   );
 }
 
