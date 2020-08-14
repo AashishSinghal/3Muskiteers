@@ -127,78 +127,12 @@ class App extends Component {
         <Header />
         <CardList OptionsA={this.state.OptionsA} />
         <SubOptions SubOptionsA={this.state.SubOptionsA} />
-        <TableData />
+        {/* <TableData /> */}
       </div>
     );
   }
 }
 
-
-function TableData() {
-  return (
-    <div className="table-data">
-      <SearchBar />
-      <table border="0" cellspacing="0" cellpadding="20">
-        <tbody>
-          <tr>
-            <td>Customer Info</td>
-            <td>Order Info</td>
-            <td>Product</td>
-            <td>Timeline</td>
-            <td>Order Amount</td>
-            <td>Mode of Payment</td>
-            <td>View Detail</td>
-          </tr>
-          <tr>
-            <td>adsf</td>
-            <td>adsf</td>
-            <td>asdf</td>
-            <td>asdf</td>
-            <td>asdf</td>
-            <td>asdf</td>
-            <td>asdf</td>
-          </tr>
-          <tr>
-            <td>adsf</td>
-            <td>adsf</td>
-            <td>asdf</td>
-            <td>asdf</td>
-            <td>asdf</td>
-            <td>asdf</td>
-            <td>asdf</td>
-          </tr>
-          <tr>
-            <td>adsf</td>
-            <td>adsf</td>
-            <td>asdf</td>
-            <td>asdf</td>
-            <td>asdf</td>
-            <td>asdf</td>
-            <td>asdf</td>
-          </tr>
-          <tr>
-            <td>adsf</td>
-            <td>adsf</td>
-            <td>asdf</td>
-            <td>asdf</td>
-            <td>asdf</td>
-            <td>asdf</td>
-            <td>asdf</td>
-          </tr>
-          <tr>
-            <td>adsf</td>
-            <td>adsf</td>
-            <td>asdf</td>
-            <td>asdf</td>
-            <td>asdf</td>
-            <td>asdf</td>
-            <td>asdf</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  );
-}
 
 
 export default App;
