@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dc992524c7791923dbfa935a01d5d9fa",
+    "revision": "b373422768df42eed8de750aceb1c1c2",
     "url": "/3Muskiteers/index.html"
   },
   {
-    "revision": "4718337757ea8a8adff6",
-    "url": "/3Muskiteers/static/css/main.ea98e7c7.chunk.css"
+    "revision": "d1c2af4ab62089757fb3",
+    "url": "/3Muskiteers/static/css/2.bd6d023b.chunk.css"
   },
   {
-    "revision": "37b41f5d64f767aca6b3",
-    "url": "/3Muskiteers/static/js/2.234c86ee.chunk.js"
+    "revision": "2ce2c8b45c0858ce77b4",
+    "url": "/3Muskiteers/static/css/main.1e2efe16.chunk.css"
+  },
+  {
+    "revision": "d1c2af4ab62089757fb3",
+    "url": "/3Muskiteers/static/js/2.351ac0e3.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/3Muskiteers/static/js/2.234c86ee.chunk.js.LICENSE.txt"
+    "url": "/3Muskiteers/static/js/2.351ac0e3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4718337757ea8a8adff6",
-    "url": "/3Muskiteers/static/js/main.48260830.chunk.js"
+    "revision": "2ce2c8b45c0858ce77b4",
+    "url": "/3Muskiteers/static/js/main.52f1e89a.chunk.js"
   },
   {
     "revision": "97d01eeaef5eadac0de8",
