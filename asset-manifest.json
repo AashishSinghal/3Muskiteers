@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/3Muskiteers/static/css/main.1e2efe16.chunk.css",
-    "main.js": "/3Muskiteers/static/js/main.52f1e89a.chunk.js",
-    "main.js.map": "/3Muskiteers/static/js/main.52f1e89a.chunk.js.map",
+    "main.css": "/3Muskiteers/static/css/main.0990030b.chunk.css",
+    "main.js": "/3Muskiteers/static/js/main.4eb5d9d4.chunk.js",
+    "main.js.map": "/3Muskiteers/static/js/main.4eb5d9d4.chunk.js.map",
     "runtime-main.js": "/3Muskiteers/static/js/runtime-main.1ee00434.js",
     "runtime-main.js.map": "/3Muskiteers/static/js/runtime-main.1ee00434.js.map",
-    "static/css/2.bd6d023b.chunk.css": "/3Muskiteers/static/css/2.bd6d023b.chunk.css",
-    "static/js/2.351ac0e3.chunk.js": "/3Muskiteers/static/js/2.351ac0e3.chunk.js",
-    "static/js/2.351ac0e3.chunk.js.map": "/3Muskiteers/static/js/2.351ac0e3.chunk.js.map",
+    "static/css/2.81215518.chunk.css": "/3Muskiteers/static/css/2.81215518.chunk.css",
+    "static/js/2.d869aa5f.chunk.js": "/3Muskiteers/static/js/2.d869aa5f.chunk.js",
+    "static/js/2.d869aa5f.chunk.js.map": "/3Muskiteers/static/js/2.d869aa5f.chunk.js.map",
     "index.html": "/3Muskiteers/index.html",
-    "precache-manifest.a2600aca01c9910155e88ec146e38ba6.js": "/3Muskiteers/precache-manifest.a2600aca01c9910155e88ec146e38ba6.js",
+    "precache-manifest.a005515678ea7cb0306182f2f60c07b7.js": "/3Muskiteers/precache-manifest.a005515678ea7cb0306182f2f60c07b7.js",
     "service-worker.js": "/3Muskiteers/service-worker.js",
-    "static/css/2.bd6d023b.chunk.css.map": "/3Muskiteers/static/css/2.bd6d023b.chunk.css.map",
-    "static/css/main.1e2efe16.chunk.css.map": "/3Muskiteers/static/css/main.1e2efe16.chunk.css.map",
-    "static/js/2.351ac0e3.chunk.js.LICENSE.txt": "/3Muskiteers/static/js/2.351ac0e3.chunk.js.LICENSE.txt",
+    "static/css/2.81215518.chunk.css.map": "/3Muskiteers/static/css/2.81215518.chunk.css.map",
+    "static/css/main.0990030b.chunk.css.map": "/3Muskiteers/static/css/main.0990030b.chunk.css.map",
+    "static/js/2.d869aa5f.chunk.js.LICENSE.txt": "/3Muskiteers/static/js/2.d869aa5f.chunk.js.LICENSE.txt",
     "static/media/bell.46e08602.svg": "/3Muskiteers/static/media/bell.46e08602.svg",
     "static/media/delivery.655a84ef.svg": "/3Muskiteers/static/media/delivery.655a84ef.svg",
     "static/media/dispatch.ff0f5ff0.svg": "/3Muskiteers/static/media/dispatch.ff0f5ff0.svg",
@@ -22,6 +22,9 @@
     "static/media/downloads.552cecb1.svg": "/3Muskiteers/static/media/downloads.552cecb1.svg",
     "static/media/finance.aa87ec27.svg": "/3Muskiteers/static/media/finance.aa87ec27.svg",
     "static/media/helpdesk.193e610c.svg": "/3Muskiteers/static/media/helpdesk.193e610c.svg",
+    "static/media/key.2eb2e3a5.svg": "/3Muskiteers/static/media/key.2eb2e3a5.svg",
+    "static/media/login-svg.8533bd1e.svg": "/3Muskiteers/static/media/login-svg.8533bd1e.svg",
+    "static/media/logout.bd3bb183.svg": "/3Muskiteers/static/media/logout.bd3bb183.svg",
     "static/media/operations.dbb3cc44.svg": "/3Muskiteers/static/media/operations.dbb3cc44.svg",
     "static/media/options.27ce550f.svg": "/3Muskiteers/static/media/options.27ce550f.svg",
     "static/media/order.63070e8a.svg": "/3Muskiteers/static/media/order.63070e8a.svg",
@@ -30,13 +33,14 @@
     "static/media/pharmacist.3434ee21.svg": "/3Muskiteers/static/media/pharmacist.3434ee21.svg",
     "static/media/question.fb656400.svg": "/3Muskiteers/static/media/question.fb656400.svg",
     "static/media/search.3c1fda56.svg": "/3Muskiteers/static/media/search.3c1fda56.svg",
-    "static/media/statistics.f57c44d4.svg": "/3Muskiteers/static/media/statistics.f57c44d4.svg"
+    "static/media/statistics.f57c44d4.svg": "/3Muskiteers/static/media/statistics.f57c44d4.svg",
+    "static/media/user.6235a205.svg": "/3Muskiteers/static/media/user.6235a205.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.1ee00434.js",
-    "static/css/2.bd6d023b.chunk.css",
-    "static/js/2.351ac0e3.chunk.js",
-    "static/css/main.1e2efe16.chunk.css",
-    "static/js/main.52f1e89a.chunk.js"
+    "static/css/2.81215518.chunk.css",
+    "static/js/2.d869aa5f.chunk.js",
+    "static/css/main.0990030b.chunk.css",
+    "static/js/main.4eb5d9d4.chunk.js"
   ]
 }

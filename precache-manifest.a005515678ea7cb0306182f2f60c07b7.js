@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b373422768df42eed8de750aceb1c1c2",
+    "revision": "de301ee82b741a2cbb337928332435a9",
     "url": "/3Muskiteers/index.html"
   },
   {
-    "revision": "d1c2af4ab62089757fb3",
-    "url": "/3Muskiteers/static/css/2.bd6d023b.chunk.css"
+    "revision": "9e104ab38a56e5ee4cc8",
+    "url": "/3Muskiteers/static/css/2.81215518.chunk.css"
   },
   {
-    "revision": "2ce2c8b45c0858ce77b4",
-    "url": "/3Muskiteers/static/css/main.1e2efe16.chunk.css"
+    "revision": "abf6366d982a0583d947",
+    "url": "/3Muskiteers/static/css/main.0990030b.chunk.css"
   },
   {
-    "revision": "d1c2af4ab62089757fb3",
-    "url": "/3Muskiteers/static/js/2.351ac0e3.chunk.js"
+    "revision": "9e104ab38a56e5ee4cc8",
+    "url": "/3Muskiteers/static/js/2.d869aa5f.chunk.js"
   },
   {
-    "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/3Muskiteers/static/js/2.351ac0e3.chunk.js.LICENSE.txt"
+    "revision": "c64c486544348f10a6d6c716950bc223",
+    "url": "/3Muskiteers/static/js/2.d869aa5f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2ce2c8b45c0858ce77b4",
-    "url": "/3Muskiteers/static/js/main.52f1e89a.chunk.js"
+    "revision": "abf6366d982a0583d947",
+    "url": "/3Muskiteers/static/js/main.4eb5d9d4.chunk.js"
   },
   {
     "revision": "97d01eeaef5eadac0de8",
@@ -60,6 +60,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/3Muskiteers/static/media/helpdesk.193e610c.svg"
   },
   {
+    "revision": "2eb2e3a56f17c5ea623dac4b1aaa0497",
+    "url": "/3Muskiteers/static/media/key.2eb2e3a5.svg"
+  },
+  {
+    "revision": "8533bd1e3ce5c15671bb578fbffe767b",
+    "url": "/3Muskiteers/static/media/login-svg.8533bd1e.svg"
+  },
+  {
+    "revision": "bd3bb1836ed8d044421e9624746510ec",
+    "url": "/3Muskiteers/static/media/logout.bd3bb183.svg"
+  },
+  {
     "revision": "dbb3cc44b34a1db0990607d50f13b4f9",
     "url": "/3Muskiteers/static/media/operations.dbb3cc44.svg"
   },
@@ -94,5 +106,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f57c44d479409e19ce8523a526f40dfe",
     "url": "/3Muskiteers/static/media/statistics.f57c44d4.svg"
+  },
+  {
+    "revision": "6235a205ef6b238453090d6f6eb3d8b4",
+    "url": "/3Muskiteers/static/media/user.6235a205.svg"
   }
 ]);
