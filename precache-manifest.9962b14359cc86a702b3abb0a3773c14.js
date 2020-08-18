@@ -1,35 +1,47 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cb787268d67c8185c8a13193153e03db",
+    "revision": "515927728d3d0ba93d3dfa9826f6f234",
     "url": "/3Muskiteers/index.html"
   },
   {
-    "revision": "9e104ab38a56e5ee4cc8",
+    "revision": "e89ba0942983a80f582e",
     "url": "/3Muskiteers/static/css/2.81215518.chunk.css"
   },
   {
-    "revision": "c0eebfd36d81c8818d47",
-    "url": "/3Muskiteers/static/css/main.0990030b.chunk.css"
+    "revision": "e523e9aec9bbd7342083",
+    "url": "/3Muskiteers/static/css/main.b0e97840.chunk.css"
   },
   {
-    "revision": "9e104ab38a56e5ee4cc8",
-    "url": "/3Muskiteers/static/js/2.d869aa5f.chunk.js"
+    "revision": "e89ba0942983a80f582e",
+    "url": "/3Muskiteers/static/js/2.97b1be82.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/3Muskiteers/static/js/2.d869aa5f.chunk.js.LICENSE.txt"
+    "url": "/3Muskiteers/static/js/2.97b1be82.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c0eebfd36d81c8818d47",
-    "url": "/3Muskiteers/static/js/main.2897074e.chunk.js"
+    "revision": "e523e9aec9bbd7342083",
+    "url": "/3Muskiteers/static/js/main.edacd7d0.chunk.js"
   },
   {
     "revision": "97d01eeaef5eadac0de8",
     "url": "/3Muskiteers/static/js/runtime-main.1ee00434.js"
   },
   {
+    "revision": "951518de9ed2a551382c8dfd77e7d714",
+    "url": "/3Muskiteers/static/media/back.951518de.svg"
+  },
+  {
     "revision": "46e08602812b87384f1b4ce94b1a0cf9",
     "url": "/3Muskiteers/static/media/bell.46e08602.svg"
+  },
+  {
+    "revision": "c0bd4fee42d6326cdcb7c2e8d7dcabb1",
+    "url": "/3Muskiteers/static/media/cart.c0bd4fee.svg"
+  },
+  {
+    "revision": "19314b5f02cfc1e935bb5f39561f626a",
+    "url": "/3Muskiteers/static/media/close.19314b5f.svg"
   },
   {
     "revision": "655a84ef253ce64f16a3dcd9069042ea",
@@ -64,12 +76,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/3Muskiteers/static/media/key.2eb2e3a5.svg"
   },
   {
+    "revision": "a0660b7d19fa490687b873fe4c110492",
+    "url": "/3Muskiteers/static/media/location.a0660b7d.svg"
+  },
+  {
     "revision": "8533bd1e3ce5c15671bb578fbffe767b",
     "url": "/3Muskiteers/static/media/login-svg.8533bd1e.svg"
   },
   {
     "revision": "bd3bb1836ed8d044421e9624746510ec",
     "url": "/3Muskiteers/static/media/logout.bd3bb183.svg"
+  },
+  {
+    "revision": "8d281364159921195fc7c33f6294dbf7",
+    "url": "/3Muskiteers/static/media/med-shipp.8d281364.svg"
   },
   {
     "revision": "dbb3cc44b34a1db0990607d50f13b4f9",
