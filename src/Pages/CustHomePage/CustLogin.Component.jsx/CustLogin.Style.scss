@@ -1,0 +1,38 @@
+.login-li {
+  display: flex;
+  // justify-content: space-around;
+  align-items: center;
+  
+  span {
+    color: white;
+    margin: 0 10px;
+  }
+
+  .vl {
+    height: 20px;
+    border-left: 1px solid white;
+  }
+
+  button {
+    display: flex;
+    vertical-align: top;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: none;
+    outline: none;
+  }
+
+  .profile-svg {
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+  }
+
+  Tab {
+    
+  }
+}

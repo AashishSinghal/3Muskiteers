@@ -1,0 +1,30 @@
+table {
+  width: 90vw;
+  text-align: left;
+  color: black;
+}
+table tr:nth-child(even) {
+  background: white;
+}
+table tr:nth-child(odd) {
+  background: #f8f2f2;
+}
+
+td {
+  width: min-content;
+}
+
+.table-data {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+
+.view-details-btn {
+  cursor: pointer;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  background-color: #51c9c2;
+  border-radius: 10px;
+}

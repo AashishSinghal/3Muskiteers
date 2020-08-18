@@ -91,10 +91,10 @@ td {
   border-radius: 25px 25px 0 25px;
 }
 
-.view-details {
-  color: white;
-  padding: 10px 15px;
-  border: none;
-  background-color: #51c9c2;
-  border-radius: 10px;
+* {
+  outline: none;
+}
+
+button {
+  cursor: pointer;
 }

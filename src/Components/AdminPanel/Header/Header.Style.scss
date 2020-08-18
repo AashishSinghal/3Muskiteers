@@ -30,6 +30,7 @@
   padding: 0 1rem;
   box-shadow: 0 1.5px 10px 0 rgba(0, 0, 0, 0.16);
   padding: 0 60px;
+  z-index: 1000;
 }
 
 .navbar-nav {
@@ -40,6 +41,7 @@
 }
 
 .medshipp {
+  cursor: pointer;
   width: 165px;
   height: 27px;
   opacity: 0.9;

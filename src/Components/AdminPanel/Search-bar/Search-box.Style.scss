@@ -1,0 +1,36 @@
+:root {
+  --search: 303.5px;
+  --search-height: 25px;
+}
+
+.search-bar {
+  display: flex;
+  width: var(--search);
+  height: var(--search-height);
+  border: solid 1px #51c9c2;
+  background-color: white;
+  margin: 10px auto;
+  border-radius: 25px;
+  padding: 0 5px;
+  align-items: center;
+}
+
+.search-input {
+  width: calc(var(--search) * 0.9);
+  border: none;
+  background-color: white;
+}
+
+.search-input[type="search"] {
+  outline: none;
+}
+
+.search-svg {
+  width: calc(var(--search-height) * 0.6);
+  height: calc(var(--search-height) * 0.6);
+  padding: 2px;
+  fill: #51c9c2;
+  background-color: white;
+  border: 1px solid #51c9c2;
+  border-radius: 25px 25px 0 25px;
+}

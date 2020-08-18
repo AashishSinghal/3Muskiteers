@@ -1,0 +1,110 @@
+:root {
+  --search: 303.5px;
+  --search-height: 100px;
+  --height: -webkit-fill-available;
+}
+
+.login {
+  display: flex;
+  width: var(--height);
+  background-color: #51c9c2;
+  position: absolute;
+  height: var(--height);
+  justify-content: center;
+  align-items: center;
+
+  .login-container {
+    --width: 80vw;
+    display: flex;
+    width: var(--width);
+    height: calc(var(--width) * 0.5);
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0 8px 15px -6px #6e6e6e;
+    padding: 25px;
+
+    .left-container {
+      width: 60%;
+      display: flex;
+      text-align: center;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .right-container {
+      width: 40%;
+      display: flex;
+      text-align: center;
+      flex-direction: column;
+      align-items: center;
+      border: 2px solid #6e6e6e;
+      border-radius: 25px;
+      box-shadow: 0 5px 20px -10px #6e6e6e;
+
+      .login-svg{
+        width: 125px;
+        height: 125px;
+        margin: 25px 25px 0px 25px;
+      }
+
+      h1{
+        color: #6e6e6e;
+      }
+
+      .input {
+        display: flex;
+        width: var(--search);
+        height: 50px;
+        background-color: #f2f2f2;
+        margin: 10px auto;
+        padding: 0 5px;
+        align-items: center;
+
+        input {
+          width: calc(var(--search) * 0.9);
+          border: none;
+          background-color: #f2f2f2;
+        }
+      }
+
+      input[type="search"],
+      [type="password"],
+      [type="username"] {
+        outline: none;
+      }
+
+      .input-svg {
+        width: 15px;
+        height: 15px;
+        fill: #6e6e6e;
+      }
+
+      .login-button{
+        cursor: pointer;
+        width: 313.5px;
+        height: 50px;
+        font-size: 20px;
+        border: none;
+        border-radius: 2px;
+        background-color: #62cec8;
+        color: white;
+        font-family: 'Raleway', sans-serif;
+        margin: 25px 0 0 0;
+      }
+
+      .forgot {
+        cursor: pointer;
+        margin: 25px;
+        color: #7d7d77;
+        font-family: 'Montserrat', sans-serif;
+        
+        span{
+          color: #51c9c2;
+        }
+      }
+
+    }
+  }
+}

@@ -1,0 +1,49 @@
+:root {
+  --text-color: #6e6e6e;
+}
+
+.sub-options {
+  display: flex;
+  width: 90vw;
+  margin: 0 auto;
+  border-bottom: 1px solid #6e6e6e;
+}
+
+.suboptname {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.opt-count {
+  width: 1vw;
+  border-radius: 50%;
+  padding: 3px;
+  font-size: 0.7vw;
+  margin-left: auto;
+  color: white;
+}
+
+.opt-name {
+  margin-right: 18px;
+  font-size: 1.19vw;
+}
+
+.opt-name-active {
+  margin-right: 18px;
+  font-size: 1.5vw;
+  color: #51c9c2;
+
+  
+  .suboptname{
+    border-bottom: 3px solid #51c9c2;
+  }
+}
+
+.react-tabs__tab--selected {
+  background: #51c9c2;
+  border-color: #6e6e6e;
+  color: white;
+  border-radius: 5px 5px 0 0;
+  
+}
