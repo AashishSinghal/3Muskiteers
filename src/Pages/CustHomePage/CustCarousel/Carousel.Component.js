@@ -12,9 +12,9 @@ function Carousel() {
     <div className = "carousel">
       <AliceCarousel autoPlay autoPlayInterval="3000" dotsDisabled={true}
           buttonsDisabled={true}>
-      <img src={image1} className="sliderimg"/>
-      <img src={image2} className="sliderimg"/>
-      <img src={image3} className="sliderimg"/>
+      <img src={image1} alt='image1' className="sliderimg"/>
+      <img src={image2} alt='image2' className="sliderimg"/>
+      <img src={image3} alt='image3' className="sliderimg"/>
       {/* <img src={image4} className="sliderimg"/> */}
       </AliceCarousel>
     </div>

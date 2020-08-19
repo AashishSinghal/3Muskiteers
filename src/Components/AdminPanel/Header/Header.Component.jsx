@@ -13,7 +13,6 @@ import { ReactComponent as PharmacistIcon } from "../../../Assets/img/svg/pharma
 import { ReactComponent as QuestionIcon } from "../../../Assets/img/svg/question.svg";
 import { ReactComponent as DashboardIcon } from "../../../Assets/img/svg/dashboard.svg";
 
-
 class Header extends React.Component {
   constructor() {
     super();
@@ -53,8 +52,8 @@ function DropdownMenu() {
 
   return (
     <div className="dropdown">
-      <Link to='/dashboard' >
-        <DropdownItem leftIcon={<DashboardIcon/>}>Dashboard</DropdownItem>
+      <Link to="/dashboard">
+        <DropdownItem leftIcon={<DashboardIcon />}>Dashboard</DropdownItem>
       </Link>
       <Link to="/dashboard/operations">
         <DropdownItem leftIcon={<OperationsIcon />}>Operations</DropdownItem>
@@ -88,13 +87,15 @@ function Navbar(props) {
 }
 
 function NavItem(props) {
-  const [open, setOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
+  const toggle = () => setIsOpen(!isOpen);
+  NavItem.handleClickOutside = () => setIsOpen(false);
   return (
     <li className="nav-item">
-      <a href="#" className="icon-button" onClick={() => setOpen(!open)}>
+      <a href="#" className="icon-button" onClick={toggle}>
         {props.icon}
       </a>
-      {open && props.children}
+      {isOpen && props.children}
     </li>
   );
 }

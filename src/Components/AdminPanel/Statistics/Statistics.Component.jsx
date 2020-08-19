@@ -2,7 +2,6 @@ import React from "react";
 import "./Statistics.Style.scss";
 
 import { ReactComponent as ArrowIcon } from "../../../Assets/img/svg/arrow.svg";
-import { ReactComponent as BoxesIcon } from "../../../Assets/img/svg/boxes.svg";
 
 export const Statistics = (props) => {
   return (

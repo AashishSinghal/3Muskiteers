@@ -1,9 +1,6 @@
 import React from "react";
 import "./Dashboard.Style.scss";
 import Header from "../../Components/AdminPanel/Header/Header.Component";
-// import { Route, Link, Switch } from "react-router-dom";
-import { SubOptions } from "../../Components/AdminPanel/SubOptions/SubOptions.Component";
-import { CardList } from "../../Components/AdminPanel/Card-list/Card-list.Component";
 import Summary from "../../Components/AdminPanel/Summary/Summary.Component";
 import { Switch, Route } from "react-router-dom";
 import Operations from "./Operations/Operations.Page";
