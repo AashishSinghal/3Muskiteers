@@ -36,27 +36,6 @@ export const SubOptions = (props) => {
 
 const SuboptName = (props) => {
   const bgColor = props.subOpt.notifiColor;
-  // const classId = props.subOpt.id;
-  // function classChange() {
-  //   let isActive = document
-  //     .getElementById(classId)
-  //     .classList.contains("opt-name-active");
-  //   let isNotActive = document
-  //     .getElementById(classId)
-  //     .classList.contains("opt-name-active");
-
-  //   if (isActive) {
-  //     document.getElementById(classId).classList.add("opt-name");
-  //     document.getElementById(classId).classList.remove("opt-name-active");
-  //   } else {
-  //     document.getElementById(classId).classList.add("opt-name-active");
-  //   }
-
-  //   if (isNotActive) {
-  //     document.getElementById(classId).classList.remove("opt-name-active");
-  //   }
-  //   render();
-  // }
   return (
     <div className="suboptname">
       <span className="opt-count" style={{ backgroundColor: bgColor }}>

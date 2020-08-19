@@ -1,0 +1,19 @@
+.back-button {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 25px;
+    background-color: #51c9c2;
+    color: white;
+    margin: 10px 0;
+  }
+  
+  .back-svg {
+    --size: 14px;
+    width: var(--size);
+    height: var(--size);
+    margin-right: 10px;
+    fill: white;
+  }

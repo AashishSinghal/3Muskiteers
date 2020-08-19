@@ -11,6 +11,8 @@ import { ReactComponent as OperationsIcon } from "../../../Assets/img/svg/operat
 import { ReactComponent as PersonIcon } from "../../../Assets/img/svg/person.svg";
 import { ReactComponent as PharmacistIcon } from "../../../Assets/img/svg/pharmacist.svg";
 import { ReactComponent as QuestionIcon } from "../../../Assets/img/svg/question.svg";
+import { ReactComponent as DashboardIcon } from "../../../Assets/img/svg/dashboard.svg";
+
 
 class Header extends React.Component {
   constructor() {
@@ -22,7 +24,7 @@ class Header extends React.Component {
     return (
       <Navbar>
         <li className="nav-item main-name">
-          <Link to='/custome-homepage'>
+          <Link to="/custome-homepage">
             <span className="medshipp">MedShipp</span>
           </Link>
         </li>
@@ -51,11 +53,25 @@ function DropdownMenu() {
 
   return (
     <div className="dropdown">
-      <DropdownItem leftIcon={<OperationsIcon />}>Operations</DropdownItem>
-      <DropdownItem leftIcon={<FinanceIcon />}>Finance</DropdownItem>
-      <DropdownItem leftIcon={<PharmacistIcon />}>Pharmacist</DropdownItem>
-      <DropdownItem leftIcon={<DoctorIcon />}>Doctor</DropdownItem>
-      <DropdownItem leftIcon={<HelpdeskIcon />}>Helpdesk</DropdownItem>
+      <Link to='/dashboard' >
+        <DropdownItem leftIcon={<DashboardIcon/>}>Dashboard</DropdownItem>
+      </Link>
+      <Link to="/dashboard/operations">
+        <DropdownItem leftIcon={<OperationsIcon />}>Operations</DropdownItem>
+      </Link>
+
+      <Link to="/dashboard/finance">
+        <DropdownItem leftIcon={<FinanceIcon />}>Finance</DropdownItem>
+      </Link>
+      <Link to="/dashboard/pharmacist">
+        <DropdownItem leftIcon={<PharmacistIcon />}>Pharmacist</DropdownItem>
+      </Link>
+      <Link to="/dashboard/doctor">
+        <DropdownItem leftIcon={<DoctorIcon />}>Doctor</DropdownItem>
+      </Link>
+      <Link to="/dashboard/helpdesk">
+        <DropdownItem leftIcon={<HelpdeskIcon />}>Helpdesk</DropdownItem>
+      </Link>
       <Link to="/">
         <DropdownItem leftIcon={<LogoutIcon />}>Logout</DropdownItem>
       </Link>

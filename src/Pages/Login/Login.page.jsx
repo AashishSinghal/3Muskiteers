@@ -1,6 +1,6 @@
 import React from "react";
 import "./Login.Style.scss";
-import { Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { ReactComponent as UsernameIcon } from "../../Assets/img/svg/user.svg";
 import { ReactComponent as PasswordIcon } from "../../Assets/img/svg/key.svg";
 import { ReactComponent as LoginIcon } from "../../Assets/img/svg/login-svg.svg";
