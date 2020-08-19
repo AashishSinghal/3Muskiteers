@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/3Muskiteers/static/css/main.2509768f.chunk.css",
-    "main.js": "/3Muskiteers/static/js/main.cb8f4a9f.chunk.js",
-    "main.js.map": "/3Muskiteers/static/js/main.cb8f4a9f.chunk.js.map",
+    "main.css": "/3Muskiteers/static/css/main.27a807e2.chunk.css",
+    "main.js": "/3Muskiteers/static/js/main.fff831ca.chunk.js",
+    "main.js.map": "/3Muskiteers/static/js/main.fff831ca.chunk.js.map",
     "runtime-main.js": "/3Muskiteers/static/js/runtime-main.1ee00434.js",
     "runtime-main.js.map": "/3Muskiteers/static/js/runtime-main.1ee00434.js.map",
-    "static/css/2.81215518.chunk.css": "/3Muskiteers/static/css/2.81215518.chunk.css",
-    "static/js/2.b16d5288.chunk.js": "/3Muskiteers/static/js/2.b16d5288.chunk.js",
-    "static/js/2.b16d5288.chunk.js.map": "/3Muskiteers/static/js/2.b16d5288.chunk.js.map",
+    "static/css/2.fb62f55c.chunk.css": "/3Muskiteers/static/css/2.fb62f55c.chunk.css",
+    "static/js/2.7234524c.chunk.js": "/3Muskiteers/static/js/2.7234524c.chunk.js",
+    "static/js/2.7234524c.chunk.js.map": "/3Muskiteers/static/js/2.7234524c.chunk.js.map",
     "index.html": "/3Muskiteers/index.html",
-    "precache-manifest.17d5a453f62ad6ce45eca9d87c41dc67.js": "/3Muskiteers/precache-manifest.17d5a453f62ad6ce45eca9d87c41dc67.js",
+    "precache-manifest.b710ff707251134e2420c3ae94a1cc74.js": "/3Muskiteers/precache-manifest.b710ff707251134e2420c3ae94a1cc74.js",
     "service-worker.js": "/3Muskiteers/service-worker.js",
-    "static/css/2.81215518.chunk.css.map": "/3Muskiteers/static/css/2.81215518.chunk.css.map",
-    "static/css/main.2509768f.chunk.css.map": "/3Muskiteers/static/css/main.2509768f.chunk.css.map",
-    "static/js/2.b16d5288.chunk.js.LICENSE.txt": "/3Muskiteers/static/js/2.b16d5288.chunk.js.LICENSE.txt",
+    "static/css/2.fb62f55c.chunk.css.map": "/3Muskiteers/static/css/2.fb62f55c.chunk.css.map",
+    "static/css/main.27a807e2.chunk.css.map": "/3Muskiteers/static/css/main.27a807e2.chunk.css.map",
+    "static/js/2.7234524c.chunk.js.LICENSE.txt": "/3Muskiteers/static/js/2.7234524c.chunk.js.LICENSE.txt",
+    "static/media/appointment.1ee51647.svg": "/3Muskiteers/static/media/appointment.1ee51647.svg",
     "static/media/arrow.5780afb1.svg": "/3Muskiteers/static/media/arrow.5780afb1.svg",
     "static/media/back.951518de.svg": "/3Muskiteers/static/media/back.951518de.svg",
     "static/media/bell.46e08602.svg": "/3Muskiteers/static/media/bell.46e08602.svg",
@@ -47,15 +48,18 @@
     "static/media/pharmacist.3434ee21.svg": "/3Muskiteers/static/media/pharmacist.3434ee21.svg",
     "static/media/question.fb656400.svg": "/3Muskiteers/static/media/question.fb656400.svg",
     "static/media/search.3c1fda56.svg": "/3Muskiteers/static/media/search.3c1fda56.svg",
+    "static/media/slide-1.jpeg": "/3Muskiteers/static/media/slide-1.dedd11e1.jpeg",
+    "static/media/slide-2.jpeg": "/3Muskiteers/static/media/slide-2.d1ee81af.jpeg",
+    "static/media/slide-3.jpeg": "/3Muskiteers/static/media/slide-3.5cd1f8e5.jpeg",
     "static/media/statistics.f57c44d4.svg": "/3Muskiteers/static/media/statistics.f57c44d4.svg",
     "static/media/twitter.7e145c9e.svg": "/3Muskiteers/static/media/twitter.7e145c9e.svg",
     "static/media/user.6235a205.svg": "/3Muskiteers/static/media/user.6235a205.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.1ee00434.js",
-    "static/css/2.81215518.chunk.css",
-    "static/js/2.b16d5288.chunk.js",
-    "static/css/main.2509768f.chunk.css",
-    "static/js/main.cb8f4a9f.chunk.js"
+    "static/css/2.fb62f55c.chunk.css",
+    "static/js/2.7234524c.chunk.js",
+    "static/css/main.27a807e2.chunk.css",
+    "static/js/main.fff831ca.chunk.js"
   ]
 }

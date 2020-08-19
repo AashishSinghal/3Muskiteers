@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/3Muskiteers/precache-manifest.17d5a453f62ad6ce45eca9d87c41dc67.js"
+  "/3Muskiteers/precache-manifest.b710ff707251134e2420c3ae94a1cc74.js"
 );
 
 self.addEventListener('message', (event) => {
