@@ -12,7 +12,7 @@ import { Route, Switch } from "react-router-dom";
 import Orders from "./Orders/Orders.Page";
 import Viewdetails from "../../VeiwDetails/ViewDetails.Pages";
 import ViewPres from "../../ViewPrescription/ViewPrescription.Page";
-import CLOPT from "./CL+SubOPT/CL+SubOPT.Component";
+// import CLOPT from "./CL+SubOPT/CL+SubOPT.Component";
 
 class Operations extends React.Component {
   constructor() {
@@ -80,7 +80,6 @@ class Operations extends React.Component {
   render() {
     return (
       <div className="operations">
-        <CLOPT OptionsA={this.state.OptionsA}/>
         <Switch>
           <Route exact path="/dashboard/operations/orders/view-details">
             <Viewdetails />
@@ -91,8 +90,49 @@ class Operations extends React.Component {
           >
             <ViewPres />
           </Route>
+          <CLOPT OptionsA={this.state.OptionsA} />
         </Switch>
       </div>
+    );
+  }
+}
+
+class CLOPT extends React.Component {
+  constructor() {
+    super();
+    this.state = {};
+  }
+
+  render() {
+    return (
+      <>
+        <Route path="/dashboard/operations">
+          <CardList OptionsA={this.props.OptionsA} />
+        </Route>
+        <Switch>
+          <Route exact path="/dashboard/operations/orders">
+            <Orders />
+          </Route>
+          <Route exact path="/dashboard/operations/dispatch">
+            <Orders />
+          </Route>
+          <Route exact path="/dashboard/operations/delivery">
+            <Orders />
+          </Route>
+          <Route exact path="/dashboard/operations/payments">
+            <Orders />
+          </Route>
+          <Route exact path="/dashboard/operations/statistics">
+            <Orders />
+          </Route>
+          <Route exact path="/dashboard/operations/downloads">
+            <Orders />
+          </Route>
+          <Route exact path="/dashboard/operations/options">
+            <Orders />
+          </Route>
+        </Switch>
+      </>
     );
   }
 }

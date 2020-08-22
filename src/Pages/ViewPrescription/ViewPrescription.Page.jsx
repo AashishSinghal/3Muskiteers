@@ -2,6 +2,8 @@ import React from "react";
 import "./ViewPrscription.Style.scss";
 import BackButton from "../../Components/AdminPanel/Back Button/BackButton.Component";
 import { Link } from "react-router-dom";
+import { ReactComponent as CheckIcon } from "../../Assets/img/svg/checkbox.svg";
+import CheckList from "./CheckList/CheckList.Component";
 
 class ViewPres extends React.Component {
   constructor() {
@@ -31,6 +33,9 @@ class ViewPres extends React.Component {
               />
             </div>
             <div className="check-list">
+              <div className="check-list-container">
+               <CheckList />
+              </div>
               <div className="call-to-actions">
                 <button className="cta cta-valid">Valid</button>
                 <button className="cta cta-invalid">Invalid</button>
