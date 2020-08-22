@@ -1,6 +1,7 @@
 import React from "react";
 import "./ViewDetails.Style.scss";
 import { ReactComponent as BackIcon } from "../../Assets/img/svg/back.svg";
+import { Link } from "react-router-dom";
 
 class Viewdetails extends React.Component {
   constructor() {
@@ -13,10 +14,12 @@ class Viewdetails extends React.Component {
     return (
       <div className="view-details">
         <div className="view-details-inner">
-          <button className="back-button" onClick={this.props.closePopup}>
-            <BackIcon className="back-svg" />
-            Back
-          </button>
+          <Link to="/dashboard/operations/orders">
+            <button className="back-button">
+              <BackIcon className="back-svg" />
+              Back
+            </button>
+          </Link>
           <div className="detail-container">
             <div className="basic-details">
               <div className="text patient-details">
@@ -38,7 +41,9 @@ class Viewdetails extends React.Component {
               </div>
             </div>
             <div className="calltoactions">
-              <button className="cta cta-viewp">View Prescription</button>
+              <Link to="/dashboard/operations/orders/view-details/view-prescription">
+                <button className="cta cta-viewp">View Prescription</button>
+              </Link>
               <button className="cta cta-additem">Add Item</button>
               <button className="cta cta-sendtodoc">Sent to Doctor</button>
               <button className="cta cta-sendtopharma">

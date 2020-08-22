@@ -10,6 +10,9 @@ import { ReactComponent as PaymentsIcon } from "../../../Assets/img/svg/payments
 import { ReactComponent as StatisticsIcon } from "../../../Assets/img/svg/statistics.svg";
 import { Route, Switch } from "react-router-dom";
 import Orders from "./Orders/Orders.Page";
+import Viewdetails from "../../VeiwDetails/ViewDetails.Pages";
+import ViewPres from "../../ViewPrescription/ViewPrescription.Page";
+import CLOPT from "./CL+SubOPT/CL+SubOPT.Component";
 
 class Operations extends React.Component {
   constructor() {
@@ -66,19 +69,27 @@ class Operations extends React.Component {
           linkUrl: "/dashboard/operations/options",
         },
       ],
-
+      cardListShow: true,
     };
   }
+
+  // cardListToggle(){
+  //   this.state.cardListShow = !this.state.cardListShow;
+  // }
 
   render() {
     return (
       <div className="operations">
+        <CLOPT OptionsA={this.state.OptionsA}/>
         <Switch>
-          <Route exact path="/dashboard/operations">
-            <CardList OptionsA={this.state.OptionsA} />
+          <Route exact path="/dashboard/operations/orders/view-details">
+            <Viewdetails />
           </Route>
-          <Route exact path='/dashboard/operations/orders'>
-              <Orders />
+          <Route
+            exact
+            path="/dashboard/operations/orders/view-details/view-prescription"
+          >
+            <ViewPres />
           </Route>
         </Switch>
       </div>

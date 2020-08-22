@@ -1,10 +1,10 @@
 import React from "react";
-import "./Orders.Style.scss";
+import "./Sales.Style.scss";
 import { SubOptions } from "../../../../Components/AdminPanel/SubOptions/SubOptions.Component";
 import BackButton from "../../../../Components/AdminPanel/Back Button/BackButton.Component";
 import { Link } from "react-router-dom";
 
-class Orders extends React.Component {
+class Sales extends React.Component {
   constructor() {
     super();
     this.state = {
@@ -13,25 +13,25 @@ class Orders extends React.Component {
           id: 1,
           notifiCount: 12,
           notifiColor: "#51c9c2",
-          name: "New",
+          name: "Sales Details",
         },
         {
           id: 2,
           notifiCount: 13,
           notifiColor: "#51C971",
-          name: "Assigned to Pharmacy",
+          name: "Total Orders Amount",
         },
         {
           id: 3,
           notifiCount: 14,
           notifiColor: "#FFB01E",
-          name: "Awaiting Prescription",
+          name: "Returns",
         },
         {
           id: 4,
           notifiCount: 15,
           notifiColor: "#003CFF",
-          name: "Queried",
+          name: "Total Returns",
         },
         {
           id: 5,
@@ -69,14 +69,14 @@ class Orders extends React.Component {
 
   render() {
     return (
-      <div className="orders">
-        {/* <Link to="/dashboard/operations">
+      <div className="sales">
+        <Link to="/dashboard/finance">
           <BackButton />
-        </Link> */}
+        </Link>
         <SubOptions SubOptionsA={this.state.SubOptionsA} />
       </div>
     );
   }
 }
 
-export default Orders;
+export default Sales;

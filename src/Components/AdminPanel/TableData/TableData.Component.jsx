@@ -1,20 +1,14 @@
 import React from "react";
 import "./TableData.Styls.scss";
 import CustomerData from "./Customer.Data";
-import Viewdetails from "../../../Pages/VeiwDetails/ViewDetails.Pages";
+import { Link } from "react-router-dom";
 
 class TableData extends React.Component {
   constructor() {
     super();
     this.state = {
       CustomerData: CustomerData,
-      showPopup: false,
     };
-  }
-  togglePopup() {
-    this.setState({
-      showPopup: !this.state.showPopup,
-    });
   }
 
   render() {
@@ -56,16 +50,9 @@ class TableData extends React.Component {
               <td>1000 ₹</td>
               <td>Prepaid / COD</td>
               <td>
-                <button className='view-details-btn' onClick={this.togglePopup.bind(this)}>
-                  View Details
-                </button>
-
-                {this.state.showPopup ? (
-                  <Viewdetails
-                    text="Close Me"
-                    closePopup={this.togglePopup.bind(this)}
-                  />
-                ) : null}
+                <Link to="/dashboard/operations/orders/view-details">
+                  <button className="view-details-btn">View Details</button>
+                </Link>
               </td>
             </tr>
           </tbody>
