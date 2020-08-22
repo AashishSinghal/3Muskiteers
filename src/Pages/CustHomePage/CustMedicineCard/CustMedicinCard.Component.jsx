@@ -1,6 +1,7 @@
 import React from "react";
 import "./CustMedicineCard.style.scss";
 import med from "../../../Assets/img/svg/med.jpg";
+import { Link } from "react-router-dom";
 
 const Card = (props) => (
   <div className="card">
@@ -14,13 +15,11 @@ const Card = (props) => (
 
 const CardContainer = (props) => (
   <div className="med-card">
-    {
-      props.cards.map((card) => (
-        <Card title={ card.title }
-          content={ card.content }
-          imgUrl={ card.imgUrl } />
-      ))
-    }
+    {props.cards.map((card) => (
+      <Link to="/customer-homepage/items">
+        <Card title={card.title} content={card.content} imgUrl={card.imgUrl} />
+      </Link>
+    ))}
   </div>
 );
 

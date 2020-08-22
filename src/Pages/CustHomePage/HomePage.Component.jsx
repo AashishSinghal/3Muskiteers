@@ -2,10 +2,11 @@ import React from "react";
 import "./HomePage.Style.scss";
 import CustLogin from "./CustLogin.Component.jsx/CustLogin.Component";
 import CustHeader from "./CustHeader/CustHeader.Component";
-import { Switch, Route, } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 import CardContainer from "./CustMedicineCard/CustMedicinCard.Component";
 import CustomSlider from "./CustCarousel/Carousel.Component";
 import BrandCard from "./CustBrandCard/CustBrandCard.component";
+import ItemPage from "../ItemPage/ItemPage.Page";
 
 class CustHome extends React.Component {
   constructor() {
@@ -16,14 +17,19 @@ class CustHome extends React.Component {
   render() {
     return (
       <div className="customer-homepage">
-        <CustHeader />
         <Switch>
-            <Route path="/customer-homepage/Login" component={CustLogin} />
+          <Route exact path="/customer-homepage">
+            <CustHeader />
+            <CustLogin />
+            <CustomSlider />
+            <CardContainer />
+            <h2 className="h2-margin">Featured Brands</h2>
+            <BrandCard />
+          </Route>
+          <Route exact path="/customer-homepage/items">
+            <ItemPage />
+          </Route>
         </Switch>
-        <CustomSlider/>
-        <CardContainer/>
-        <h2 className = "h2-margin">Featured Brands</h2>
-        <BrandCard/>
       </div>
     );
   }

@@ -76,7 +76,7 @@ const CustomerData = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     title: "",
     buttonName: 'View Details'
   },

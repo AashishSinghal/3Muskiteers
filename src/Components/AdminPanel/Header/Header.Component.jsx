@@ -23,7 +23,7 @@ class Header extends React.Component {
     return (
       <Navbar>
         <li className="nav-item main-name">
-          <Link to="/custome-homepage">
+          <Link to="/customer-homepage">
             <span className="medshipp">MedShipp</span>
           </Link>
         </li>

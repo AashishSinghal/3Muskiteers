@@ -5,6 +5,7 @@ import "react-tabs/style/react-tabs.scss";
 import TableData from "../TableData/TableData.Component";
 import SearchBar from "../Search-bar/Search-box.Component";
 import Viewdetails from "../../../Pages/VeiwDetails/ViewDetails.Pages";
+import { Link } from "react-router-dom";
 
 export const SubOptions = (props) => {
   return (
@@ -106,19 +107,9 @@ class AssToPhas extends React.Component {
               <td>1000 ₹</td>
               <td>Prepaid / COD</td>
               <td>
-                <button
-                  className="view-details-btn"
-                  onClick={this.togglePopup.bind(this)}
-                >
-                  View Details
-                </button>
-
-                {this.state.showPopup ? (
-                  <Viewdetails
-                    text="Close Me"
-                    closePopup={this.togglePopup.bind(this)}
-                  />
-                ) : null}
+                <Link to="/dashboard/operations/orders/view-details">
+                  <button className="view-details-btn">View Details</button>
+                </Link>
               </td>
             </tr>
           </tbody>
@@ -180,19 +171,9 @@ class AwaitPres extends React.Component {
                 Detail
               </td>
               <td>
-                <button
-                  className="view-details-btn"
-                  onClick={this.togglePopup.bind(this)}
-                >
-                  View Details
-                </button>
-
-                {this.state.showPopup ? (
-                  <Viewdetails
-                    text="Close Me"
-                    closePopup={this.togglePopup.bind(this)}
-                  />
-                ) : null}
+                <Link to="/dashboard/operations/orders/view-details">
+                  <button className="view-details-btn">View Details</button>
+                </Link>
               </td>
             </tr>
           </tbody>

@@ -2,12 +2,36 @@ import React from "react";
 import "./ViewDetails.Style.scss";
 import { ReactComponent as BackIcon } from "../../Assets/img/svg/back.svg";
 import { Link } from "react-router-dom";
+// import { ReactComponent as CrossIcon } from "../../Assets/img/svg/close.svg";
+import AddItem from "../../Components/AdminPanel/CallToAction-PopUps/AddItem/AddItem.Component";
+import QueryPopUp from "../../Components/AdminPanel/CallToAction-PopUps/Query/Query.Component";
+import RejectPopUp from "../../Components/AdminPanel/CallToAction-PopUps/Reject/Reject.Component";
 
 class Viewdetails extends React.Component {
   constructor() {
     super();
 
-    this.state = {};
+    this.state = {
+      addItem: false,
+      showQuery: false,
+      showReject: false,
+    };
+  }
+
+  toggleAddItem() {
+    this.setState({
+      addItem: !this.state.addItem,
+    });
+  }
+  toggleQuery() {
+    this.setState({
+      showQuery: !this.state.showQuery,
+    });
+  }
+  toggleReject() {
+    this.setState({
+      showReject: !this.state.showReject,
+    });
   }
 
   render() {
@@ -44,16 +68,46 @@ class Viewdetails extends React.Component {
               <Link to="/dashboard/operations/orders/view-details/view-prescription">
                 <button className="cta cta-viewp">View Prescription</button>
               </Link>
-              <button className="cta cta-additem">Add Item</button>
+              <button
+                className="cta cta-additem"
+                onClick={this.toggleAddItem.bind(this)}
+              >
+                Add Item
+              </button>
               <button className="cta cta-sendtodoc">Sent to Doctor</button>
               <button className="cta cta-sendtopharma">
                 Send to Pharmacist
               </button>
-              <button className="cta cta-query">Query</button>
-              <button className="cta cta-reject">Reject</button>
+              <button
+                className="cta cta-query"
+                onClick={this.toggleQuery.bind(this)}
+              >
+                Query
+              </button>
+              <button
+                className="cta cta-reject"
+                onClick={this.toggleReject.bind(this)}
+              >
+                Reject
+              </button>
             </div>
           </div>
         </div>
+        {this.state.addItem ? (
+          <AddItem text="Close Me" closePopup={this.toggleAddItem.bind(this)} />
+        ) : null}
+        {this.state.showQuery ? (
+          <QueryPopUp
+            text="Close Me"
+            closePopup={this.toggleQuery.bind(this)}
+          />
+        ) : null}
+        {this.state.showReject ? (
+          <RejectPopUp
+            text="Close Me"
+            closePopup={this.toggleReject.bind(this)}
+          />
+        ) : null}
       </div>
     );
   }
