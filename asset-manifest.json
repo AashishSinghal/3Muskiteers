@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/3Muskiteers/static/css/main.c2730dd8.chunk.css",
-    "main.js": "/3Muskiteers/static/js/main.827f5880.chunk.js",
-    "main.js.map": "/3Muskiteers/static/js/main.827f5880.chunk.js.map",
+    "main.css": "/3Muskiteers/static/css/main.6468a009.chunk.css",
+    "main.js": "/3Muskiteers/static/js/main.6ac40aed.chunk.js",
+    "main.js.map": "/3Muskiteers/static/js/main.6ac40aed.chunk.js.map",
     "runtime-main.js": "/3Muskiteers/static/js/runtime-main.1ee00434.js",
     "runtime-main.js.map": "/3Muskiteers/static/js/runtime-main.1ee00434.js.map",
     "static/css/2.7c6770b6.chunk.css": "/3Muskiteers/static/css/2.7c6770b6.chunk.css",
     "static/js/2.1265273c.chunk.js": "/3Muskiteers/static/js/2.1265273c.chunk.js",
     "static/js/2.1265273c.chunk.js.map": "/3Muskiteers/static/js/2.1265273c.chunk.js.map",
     "index.html": "/3Muskiteers/index.html",
-    "precache-manifest.83c9fbb6362451edc704534fcb46a62c.js": "/3Muskiteers/precache-manifest.83c9fbb6362451edc704534fcb46a62c.js",
+    "precache-manifest.6aae2f0a0ea40f02234ef7a9bd81d268.js": "/3Muskiteers/precache-manifest.6aae2f0a0ea40f02234ef7a9bd81d268.js",
     "service-worker.js": "/3Muskiteers/service-worker.js",
     "static/css/2.7c6770b6.chunk.css.map": "/3Muskiteers/static/css/2.7c6770b6.chunk.css.map",
-    "static/css/main.c2730dd8.chunk.css.map": "/3Muskiteers/static/css/main.c2730dd8.chunk.css.map",
+    "static/css/main.6468a009.chunk.css.map": "/3Muskiteers/static/css/main.6468a009.chunk.css.map",
     "static/js/2.1265273c.chunk.js.LICENSE.txt": "/3Muskiteers/static/js/2.1265273c.chunk.js.LICENSE.txt",
     "static/media/appointment.1ee51647.svg": "/3Muskiteers/static/media/appointment.1ee51647.svg",
     "static/media/arrow.5780afb1.svg": "/3Muskiteers/static/media/arrow.5780afb1.svg",
@@ -20,6 +20,7 @@
     "static/media/bell.46e08602.svg": "/3Muskiteers/static/media/bell.46e08602.svg",
     "static/media/boxes.947869e1.svg": "/3Muskiteers/static/media/boxes.947869e1.svg",
     "static/media/cart.c0bd4fee.svg": "/3Muskiteers/static/media/cart.c0bd4fee.svg",
+    "static/media/checkbox.5fb65f53.svg": "/3Muskiteers/static/media/checkbox.5fb65f53.svg",
     "static/media/close.19314b5f.svg": "/3Muskiteers/static/media/close.19314b5f.svg",
     "static/media/commission.a61f09a2.svg": "/3Muskiteers/static/media/commission.a61f09a2.svg",
     "static/media/customer.f4909530.svg": "/3Muskiteers/static/media/customer.f4909530.svg",
@@ -65,7 +66,7 @@
     "static/js/runtime-main.1ee00434.js",
     "static/css/2.7c6770b6.chunk.css",
     "static/js/2.1265273c.chunk.js",
-    "static/css/main.c2730dd8.chunk.css",
-    "static/js/main.827f5880.chunk.js"
+    "static/css/main.6468a009.chunk.css",
+    "static/js/main.6ac40aed.chunk.js"
   ]
 }

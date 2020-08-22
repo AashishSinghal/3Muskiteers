@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e8ab27305a79d9ac8e859a08bc127d5f",
+    "revision": "ec0a7ebe5ac0791238ed333a0c604005",
     "url": "/3Muskiteers/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/3Muskiteers/static/css/2.7c6770b6.chunk.css"
   },
   {
-    "revision": "1a8f18f925934db818db",
-    "url": "/3Muskiteers/static/css/main.c2730dd8.chunk.css"
+    "revision": "c6f87e35636591e38f80",
+    "url": "/3Muskiteers/static/css/main.6468a009.chunk.css"
   },
   {
     "revision": "04c36d321d35ac25a0d7",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/3Muskiteers/static/js/2.1265273c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1a8f18f925934db818db",
-    "url": "/3Muskiteers/static/js/main.827f5880.chunk.js"
+    "revision": "c6f87e35636591e38f80",
+    "url": "/3Muskiteers/static/js/main.6ac40aed.chunk.js"
   },
   {
     "revision": "97d01eeaef5eadac0de8",
@@ -50,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c0bd4fee42d6326cdcb7c2e8d7dcabb1",
     "url": "/3Muskiteers/static/media/cart.c0bd4fee.svg"
+  },
+  {
+    "revision": "5fb65f5327a97b576e964f85097ccc12",
+    "url": "/3Muskiteers/static/media/checkbox.5fb65f53.svg"
   },
   {
     "revision": "19314b5f02cfc1e935bb5f39561f626a",
