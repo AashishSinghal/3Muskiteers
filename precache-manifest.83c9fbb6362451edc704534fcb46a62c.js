@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6c5cbf82bdfa3ddda4ecd8d33d9387c5",
+    "revision": "e8ab27305a79d9ac8e859a08bc127d5f",
     "url": "/3Muskiteers/index.html"
   },
   {
-    "revision": "1f56199467b46879e643",
-    "url": "/3Muskiteers/static/css/2.fb62f55c.chunk.css"
+    "revision": "04c36d321d35ac25a0d7",
+    "url": "/3Muskiteers/static/css/2.7c6770b6.chunk.css"
   },
   {
-    "revision": "f4434eb253b69b08636e",
-    "url": "/3Muskiteers/static/css/main.824e3b78.chunk.css"
+    "revision": "1a8f18f925934db818db",
+    "url": "/3Muskiteers/static/css/main.c2730dd8.chunk.css"
   },
   {
-    "revision": "1f56199467b46879e643",
-    "url": "/3Muskiteers/static/js/2.97e19fdb.chunk.js"
+    "revision": "04c36d321d35ac25a0d7",
+    "url": "/3Muskiteers/static/js/2.1265273c.chunk.js"
   },
   {
-    "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/3Muskiteers/static/js/2.97e19fdb.chunk.js.LICENSE.txt"
+    "revision": "3453b8997016469371284a28c0e873e2",
+    "url": "/3Muskiteers/static/js/2.1265273c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f4434eb253b69b08636e",
-    "url": "/3Muskiteers/static/js/main.a2a402fc.chunk.js"
+    "revision": "1a8f18f925934db818db",
+    "url": "/3Muskiteers/static/js/main.827f5880.chunk.js"
   },
   {
     "revision": "97d01eeaef5eadac0de8",
@@ -56,6 +56,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/3Muskiteers/static/media/close.19314b5f.svg"
   },
   {
+    "revision": "a61f09a245b3a3a8e3ef347b16a75ee4",
+    "url": "/3Muskiteers/static/media/commission.a61f09a2.svg"
+  },
+  {
     "revision": "f49095303bec8663e801bedf3fcbdca6",
     "url": "/3Muskiteers/static/media/customer.f4909530.svg"
   },
@@ -86,6 +90,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b5de3bc9c62adfe7184a18dbcf583475",
     "url": "/3Muskiteers/static/media/ebitda.b5de3bc9.svg"
+  },
+  {
+    "revision": "a0b0d6c5c8225245a01541e1b677ae2a",
+    "url": "/3Muskiteers/static/media/expenses.a0b0d6c5.svg"
   },
   {
     "revision": "ba354d9b027b0a070c47c294450b2575",
@@ -156,8 +164,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/3Muskiteers/static/media/pharmacist.3434ee21.svg"
   },
   {
+    "revision": "d407c3384901f00b4a9c6fa2c3e3e271",
+    "url": "/3Muskiteers/static/media/projection.d407c338.svg"
+  },
+  {
     "revision": "fb656400e09780b939ae07cc7836a58f",
     "url": "/3Muskiteers/static/media/question.fb656400.svg"
+  },
+  {
+    "revision": "278cf7a44d5b7e5ddf34fe54848809e9",
+    "url": "/3Muskiteers/static/media/receipt.278cf7a4.svg"
+  },
+  {
+    "revision": "257663567a8a17ef71a5c714fbf0321d",
+    "url": "/3Muskiteers/static/media/sales.25766356.svg"
   },
   {
     "revision": "3c1fda56f32628bb6a01691fb5e3f8fb",
@@ -186,5 +206,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6235a205ef6b238453090d6f6eb3d8b4",
     "url": "/3Muskiteers/static/media/user.6235a205.svg"
+  },
+  {
+    "revision": "24f4de9e73f4989ce8ee9148089e596f",
+    "url": "/3Muskiteers/static/media/view-prescription-sample.24f4de9e.png"
   }
 ]);
